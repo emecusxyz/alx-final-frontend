@@ -19,7 +19,7 @@ const config = {
   },
   credentials: "include",
 };
-const baseURL = "http://localhost:5000/user";
+const baseURL = "https://alx-final-backend.onrender.com/user";
 
 // const con = {
 //   config,
@@ -27,7 +27,7 @@ const baseURL = "http://localhost:5000/user";
 // }
 
 // const client = axios.create({
-//   baseURL: "http://localhost:5000/user",
+//   baseURL: "https://alx-final-backend.onrender.com/user",
 //   config,
 //   withCredentials: true,
 // });
