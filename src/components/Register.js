@@ -48,7 +48,7 @@ export default function Register() {
     // set configurations
     const configuration = {
       method: "post",
-      url: "http://localhost:5000/register",
+      url: "https://alx-final-frontend-1.onrender.com/register",
       data: {
         first_name,
         last_name,
