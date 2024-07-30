@@ -34,7 +34,7 @@ const Login = () => {
     // set configurations
     const configuration = {
       method: "post",
-      url: "https://alx-final-frontend-1.onrender.com/login",
+      url: "https://alx-final-backend.onrender.com/login",
       data: {
         email,
         password,
