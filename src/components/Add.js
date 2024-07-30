@@ -41,7 +41,7 @@ const Add = () => {
     const configuration = {
       headers: { Authorization: `Bearer ${token}` },
       method: "post",
-      url: "http://localhost:5000/tracks",
+      url: "https://alx-final-backend.onrender.com/tracks",
       data: {
         date,
         steps,
